@@ -6,7 +6,7 @@ dev:
 prod:
 	@rm -rf .terraform
 	terrafile
-	terraform init -backend-config env/prod.tfvars
+	terraform init -backend-config env/prod-backend.tfvars
 	terraform apply -auto-approve -var-file env/prod.tfvars
 
 
