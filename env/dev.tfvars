@@ -4,6 +4,7 @@ subnets = {
   public = {
     name = "public"
     subnet_cidr = ["10.100.0.0/24","10.100.1.0/24"]
+
   }
   apps = {
     name = "apps"
@@ -17,3 +18,4 @@ subnets = {
 }
 
 env = "dev"
+AZ = ["us-east-1a", "us-east-1b"]
