@@ -1,4 +1,4 @@
-dev-destroy:
+dev:
 	@rm -rf .terraform
 	terrafile
 	terraform init -backend-config backend.tf
