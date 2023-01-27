@@ -1,8 +1,8 @@
-dev:
+dev-destroy:
 	@rm -rf .terraform
 	terrafile
-    terraform init -backend-config backend.tf
-	terraform apply -auto-approve -var env/dev.tfvars
+	terraform init -backend-config backend.tf
+	terraform destroy -auto-approve -var-file env/dtfvarsars
 prod:
 	@rm -rf .terraform
 	terrafile
