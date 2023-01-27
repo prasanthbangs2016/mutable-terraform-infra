@@ -1,7 +1,7 @@
 dev:
 	@rm -rf .terraform
 	terrafile
-	terraform init -backend-config env/dev.tfvars
+	terraform init -backend-config env/dev-backend.tfvars
 	terraform destroy -auto-approve -var-file env/dtfvarsars
 prod:
 	@rm -rf .terraform
@@ -13,7 +13,7 @@ prod:
 dev-destroy:
 	@rm -rf .terraform
 	terrafile
-	terraform init -backend-config env/dev.tfvars
+	terraform init -backend-config env/dev-backend.tfvars
 	terraform destroy -auto-approve -var-file env/dev.tfvars
 prod:
 	@rm -rf .terraform
