@@ -1,7 +1,7 @@
 dev:
 	@rm -rf .terraform
 	terrafile
-	terraform init -backend-config env/dev.tfvars
+    terraform init -reconfigure -backend-config backend.tf
 	terraform apply -auto-approve -var env/dev.tfvars
 prod:
 	@rm -rf .terraform
