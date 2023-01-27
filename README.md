@@ -1,1 +1,1 @@
-# mutable-terraform-infra
+# terraform-mutable-infra

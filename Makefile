@@ -1,22 +1,18 @@
 dev:
-	@rm -rf .terraform
-	terrafile
-	terraform init -backend-config env/dev.tfvars
-	terraform apply -auto-approve -var-file env/dev.tfvars
+	git pull
+	cd dev
+	terraform init 
 prod:
-	@rm -rf .terraform
-	terrafile
-	terraform init -backend-config env/prod.tfvars
-	terraform apply -auto-approve -var-file env/prod.tfvars
-
-
+	git pull
+	cd prod
+	terraform init 
 dev-destroy:
-	@rm -rf .terraform
+	rm -rf .terraform
 	terrafile
-	terraform init -backend-config env/dev.tfvars
+	terraform init -backend-config env/dev-backend.tfvars
 	terraform destroy -auto-approve -var-file env/dev.tfvars
-prod:
-	@rm -rf .terraform
+prod-destroy:
+	rm -rf .terraform
 	terrafile
-	terraform init -backend-config env/prod.tfvars
+	terraform init -backend-config env/prod-backend.tfvars
 	terraform destroy -auto-approve -var-file env/prod.tfvars

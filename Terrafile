@@ -1,3 +1,6 @@
 vpc:
-    source: "https://github.com/prasanthbangs2016/module-tf-vpc.git"
+    source:  "https://github.com/prasanthbangs2016/tf-module-vpc.git"
     version: "main"
+
+
+
