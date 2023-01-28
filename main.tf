@@ -4,7 +4,6 @@ module "vpc" {
     subnets                = var.subnets
     env                    = var.env
     AZ                     = var.AZ
-    vpc_id                 = var.vpc_cidr_block
 
 
 }
