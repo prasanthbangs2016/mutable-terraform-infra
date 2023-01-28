@@ -4,6 +4,7 @@ module "vpc" {
     subnets                = var.subnets
     env                    = var.env
     AZ                     = var.AZ
+    default_vpc_id         = var.default_vpc_id
 
 
 }
