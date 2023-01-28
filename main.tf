@@ -13,3 +13,7 @@ module "vpc" {
 #output "out" {
 #    value = module.vpc.out
 #}
+
+output "out" {
+    value = module.vpc.out
+}
