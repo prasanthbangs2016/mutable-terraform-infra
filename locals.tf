@@ -22,7 +22,7 @@
 #}
 
 locals {
-  apps_subnet_ids = module.vpc.subnets["apps"].subnet_ids
-  db_subnet_ids = module.vpc.subnets["db"].subnet_ids
-  public_subnet_ids = module.vpc.subnets["public"].subnet_ids
+  apps_subnet_ids = module.vpc.out["apps"].subnet_ids
+  db_subnet_ids = module.vpc.out["db"].subnet_ids
+  public_subnet_ids = module.vpc.out["public"].subnet_ids
 }
