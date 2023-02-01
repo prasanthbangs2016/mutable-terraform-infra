@@ -3,7 +3,7 @@ vpc:
     version: "main"
 
 docdb:
-    source:  "https://github.com/prasanthbangs2016/tf-module.docdb.git"
+    source:  "https://github.com/prasanthbangs2016/tf-module-docdb.git"
     version: "main"
 
 
