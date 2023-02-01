@@ -15,3 +15,5 @@ variable "engine_version" {}
 
 variable "docdb_cluster_instance_count" {}
 
+variable "docdb_instance_class" {}
+

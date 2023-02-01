@@ -19,6 +19,7 @@ module "docdb" {
     vpc_id                 = module.vpc.vpc_id
     vpc_cidr_block         = var.vpc_cidr_block
     instance_count         = var.docdb_cluster_instance_count
+    instance_class         = var.docdb_instance_class
 }
 
 #output "out" {
