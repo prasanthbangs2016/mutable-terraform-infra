@@ -16,7 +16,7 @@ module "docdb" {
     env                    = var.env
     engine_version         = var.engine_version
     apps_subnet_ids        = local.apps_subnet_ids
-    vpc_id                 = module.vpc.vpc_id
+    vpc_id                 = module.vpc.id
     vpc_cidr_block         = var.vpc_cidr_block
     instance_count         = var.docdb_cluster_instance_count
     instance_class         = var.docdb_instance_class
