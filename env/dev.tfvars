@@ -1,3 +1,4 @@
+#vpc
 vpc_cidr_block = "10.100.0.0/16"
 
 subnets = {
@@ -26,3 +27,8 @@ AZ = ["us-east-1a", "us-east-1b"]
 default_vpc_id = "vpc-03a02f6f0896489d5"
 default_vpc_cidr = "172.31.0.0/16"
 default_route_table_id = "rtb-017a8b0dd1b6f1fd1"
+
+
+#Docdb
+
+engine_version = "4.0.0"

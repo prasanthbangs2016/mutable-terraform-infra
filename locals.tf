@@ -20,3 +20,9 @@
 #  db_subnet_ids = module.vpc.subnets["db"]["out"][*].id
 #  public_subnet_ids = module.vpc.subnets["public"]["out"][*].id
 #}
+
+locals {
+  apps_subnet_ids = module.vpc.subnets["apps"].subnet_ids
+  db_subnet_ids = module.vpc.subnets["db"].subnet_ids
+  public_subnet_ids = module.vpc.subnets["public"].subnet_ids
+}
