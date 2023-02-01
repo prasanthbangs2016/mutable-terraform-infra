@@ -13,5 +13,5 @@ variable "default_route_table_id" {}
 
 variable "engine_version" {}
 
-
+variable "docdb_cluster_instance_count" {}
 

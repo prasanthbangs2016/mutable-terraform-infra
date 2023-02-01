@@ -32,3 +32,4 @@ default_route_table_id = "rtb-017a8b0dd1b6f1fd1"
 #Docdb
 
 engine_version = "4.0.0"
+docdb_cluster_instance_count = 1
