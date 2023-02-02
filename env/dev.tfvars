@@ -50,4 +50,4 @@ redis_engine_version = "6.2"
 ##rabbitmq
 
 instance_type = "t3.micro"
-
+WORKSTATION_IP = "172.31.0.22/32"

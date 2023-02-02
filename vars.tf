@@ -28,3 +28,5 @@ variable "redis_engine_version" {}
 
 variable "instance_type" {}
 
+variable "WORKSTATION_IP" {}
+
