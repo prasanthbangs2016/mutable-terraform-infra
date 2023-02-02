@@ -11,5 +11,10 @@ rds:
     source:  "https://github.com/prasanthbangs2016/tf-module-rds.git"
     version: "main"
 
+elasticache:
+
+    source:  "https://github.com/prasanthbangs2016/tf-module-elastic-cache.git"
+    version: "main"
+
 
 

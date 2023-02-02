@@ -36,7 +36,13 @@ docdb_cluster_instance_count = 1
 docdb_instance_class = "db.t3.medium"
 
 
-##RD
+##RDS
 rds_engine_version = "5.7.mysql_aurora.2.10.2"
 rds_cluster_instance_count = 1
 rds_instance_class = "db.t3.small"
+
+#elasticcache
+redis_instance_class = "cache.t3.micro"
+redis_instance_count = 1
+redis_engine_version = "6.2"
+
