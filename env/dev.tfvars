@@ -46,3 +46,8 @@ redis_instance_class = "cache.t3.micro"
 redis_instance_count = 1
 redis_engine_version = "6.2"
 
+
+##rabbitmq
+
+instance_type = "t3.micro"
+

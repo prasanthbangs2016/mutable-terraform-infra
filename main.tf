@@ -45,6 +45,16 @@ module "elasticcache" {
     redis_instance_class      = var.redis_instance_class
 }
 
+module "rabbitmq" {
+    source                 = "./vendor/modules/rabbitmq/"
+    env                    = var.env
+    db_subnet_ids          = local.db_subnet_ids
+    vpc_id                 = module.vpc.vpc_id
+    vpc_cidr_block         = var.vpc_cidr_block
+    instance_type          = var.instance_type
+
+}
+
 #output "out" {
 #    value = module.vpc.out
 #}

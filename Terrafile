@@ -16,5 +16,10 @@ elasticcache:
     source:  "https://github.com/prasanthbangs2016/tf-module-elastic-cache.git"
     version: "main"
 
+rabbitmq:
+
+    source:  "https://github.com/prasanthbangs2016/tf-module-rabbitmq.git"
+    version: "main"
+
 
 

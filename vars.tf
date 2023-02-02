@@ -26,3 +26,5 @@ variable "redis_instance_count" {}
 variable "redis_engine_version" {}
 
 
+variable "instance_type" {}
+
