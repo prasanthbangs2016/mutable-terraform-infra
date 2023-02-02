@@ -37,7 +37,7 @@ module "rds" {
 module "elasticcache" {
     source                 = "./vendor/modules/elasticcache/"
     env                    = var.env
-    engine_version     = var.redis_engine_version
+    redis_engine_version     = var.redis_engine_version
     db_subnet_ids          = local.db_subnet_ids
     vpc_id                 = module.vpc.vpc_id
     vpc_cidr_block         = var.vpc_cidr_block
