@@ -41,7 +41,7 @@ module "elasticcache" {
     db_subnet_ids          = local.db_subnet_ids
     vpc_id                 = module.vpc.vpc_id
     vpc_cidr_block         = var.vpc_cidr_block
-    redis_cluster_instance_count = var.redis_instance_count
+    redis_instance_count = var.redis_instance_count
     redis_instance_class      = var.redis_instance_class
 }
 
