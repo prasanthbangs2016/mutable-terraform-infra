@@ -62,10 +62,10 @@ module "rabbitmq" {
 #    value = module.vpc.out
 #}
 
-output "out" {
-    value = module.vpc.out
-}
-
-output "out1" {
-    value = local.apps_subnet_ids
-}
+#output "out" {
+#    value = module.vpc.out
+#}
+#
+#output "out1" {
+#    value = local.apps_subnet_ids
+#}
