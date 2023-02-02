@@ -34,3 +34,9 @@ default_route_table_id = "rtb-017a8b0dd1b6f1fd1"
 engine_version = "4.0.0"
 docdb_cluster_instance_count = 1
 docdb_instance_class = "db.t3.medium"
+
+
+##RD
+rds_engine_version = "5.7.38"
+rds_cluster_instance_count = 1
+rds_instance_class = "db.t3.micro"

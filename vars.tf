@@ -17,3 +17,7 @@ variable "docdb_cluster_instance_count" {}
 
 variable "docdb_instance_class" {}
 
+variable "rds_engine_version" {}
+variable "rds_cluster_instance_count" {}
+variable "rds_instance_class" {}
+
