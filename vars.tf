@@ -30,3 +30,5 @@ variable "instance_type" {}
 
 variable "WORKSTATION_IP" {}
 
+variable "PUBLIC_DNS_RECORD" {}
+

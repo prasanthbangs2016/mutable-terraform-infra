@@ -66,6 +66,7 @@ module "alb" {
     vpc_cidr_block         = var.vpc_cidr_block
     public_subnets      = local.public_subnet_ids
     app_subnets             = local.apps_subnet_ids
+    PUBLIC_DNS_RECORD       = var.PUBLIC_DNS_RECORD
 
 }
 

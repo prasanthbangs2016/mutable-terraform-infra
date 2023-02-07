@@ -51,3 +51,5 @@ redis_engine_version = "6.2"
 
 instance_type = "t3.micro"
 WORKSTATION_IP = "172.31.0.22/32"
+
+PUBLIC_DNS_RECORD = "dev.devopsppk.online"
