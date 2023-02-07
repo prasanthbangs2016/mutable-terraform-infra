@@ -58,6 +58,17 @@ module "rabbitmq" {
 
 }
 
+
+module "alb" {
+    source                 = "./vendor/modules/alb/"
+    env                    = var.env
+    vpc_id                 = module.vpc.vpc_id
+    vpc_cidr_block         = var.vpc_cidr_block
+    public_subnets_ids      = local.public_subnet_ids
+    app_subnets             = local.apps_subnet_ids
+
+}
+
 #output "out" {
 #    value = module.vpc.out
 #}

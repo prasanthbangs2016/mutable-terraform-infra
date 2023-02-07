@@ -21,5 +21,10 @@ rabbitmq:
     source:  "https://github.com/prasanthbangs2016/tf-module-rabbitmq.git"
     version: "main"
 
+alb:
+
+    source:  "https://github.com/prasanthbangs2016/tf-module-alb.git"
+    version: "main"
+
 
 
