@@ -14,6 +14,6 @@ output "vpc_cidr" {
   value = var.vpc_cidr_block
 }
 
-output "public_tg_arn" {
-  value = module.alb.public_tg_arn
-}
+#output "public_tg_arn" {
+#  value = module.alb.public_tg_arn
+#}
