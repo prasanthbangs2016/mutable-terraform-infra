@@ -17,3 +17,11 @@ output "vpc_cidr" {
 output "public_tg_arn" {
   value = module.alb.public_tg_arn
 }
+
+output "private_lb_dns_name" {
+  value = module.alb.private_lb_dns_name
+}
+
+output "private_lb_listener_arn" {
+  value = module.alb.private_lb_listener_arn
+}
